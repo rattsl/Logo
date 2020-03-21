@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+
+let message: string = "helloworld" 
 
 function App() {
   return (
     <div>
-      hello
+      {message}
     </div>
   );
 }
